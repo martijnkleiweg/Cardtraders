@@ -18,8 +18,8 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = 'martinuskleiweg@gmail.com'; // YOUR gmail email
-$mail->Password = 'radio538'; // YOUR gmail password
+$mail->Username = 'test@gmail.com'; // YOUR gmail email
+$mail->Password = 'test'; // YOUR gmail password
 
 
 if(count($_POST)>0) {
