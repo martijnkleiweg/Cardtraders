@@ -14,8 +14,8 @@ $enableSandbox = true;
 $paypalConfig = [
     'client_id' => 'x',
     'client_secret' => 'x',
-    'return_url' => 'http://86.93.145.183/cardtrader/user/paypalapi/response.php',
-    'cancel_url' => 'http://86.93.145.183/cardtrader/user/paymentcancelled.php'
+    'return_url' => 'http://192.168.2.12/cardtrader/user/paypalapi/response.php',
+    'cancel_url' => 'http://192.168.2.12/cardtrader/user/paymentcancelled.php'
 ];
 
 // Database settings. Change these for your database configuration.

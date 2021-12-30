@@ -18,8 +18,8 @@ $mail->SMTPAuth = true;
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = 'martinuskleiweg@gmail.com'; // YOUR gmail email
-$mail->Password = 'radio538'; // YOUR gmail password
+$mail->Username = 'test@gmail.com'; // YOUR gmail email
+$mail->Password = 'test'; // YOUR gmail password
 
 
 use PayPal\Api\Payment;
@@ -86,9 +86,9 @@ try {
 
             $email_to = $useremail;
 
-            $mail->setFrom('martinuskleiweg@gmail.com', 'Cardtraders');
+            $mail->setFrom('test@gmail.com', 'Cardtraders');
             $mail->addAddress($email_to, 'Cardtrader User');
-            $mail->addReplyTo('martinuskleiweg@gmail.com', 'Cardtraders');
+            $mail->addReplyTo('test@gmail.com', 'Cardtraders');
 
             $mail->IsHTML(true);
             $mail->Subject = $subject;
@@ -112,9 +112,9 @@ try {
                 $email_to = $receiveremail;
                 $subject = "Your giftcard(s) - Cardtraders";
 
-                $mail->setFrom('martinuskleiweg@gmail.com', 'Cardtraders');
+                $mail->setFrom('test@gmail.com', 'Cardtraders');
                 $mail->addAddress($email_to, 'Cardtrader User');
-                $mail->addReplyTo('martinuskleiweg@gmail.com', 'Cardtraders');
+                $mail->addReplyTo('test@gmail.com', 'Cardtraders');
 
                 $mail->IsHTML(true);
                 $mail->Subject = $subject;
@@ -157,9 +157,9 @@ try {
 
                     $email_to = $useremail;
 
-                    $mail->setFrom('martinuskleiweg@gmail.com', 'Cardtraders');
+                    $mail->setFrom('test@gmail.com', 'Cardtraders');
                     $mail->addAddress($email_to, 'Cardtrader User');
-                    $mail->addReplyTo('martinuskleiweg@gmail.com', 'Cardtraders');
+                    $mail->addReplyTo('test@gmail.com', 'Cardtraders');
 
                     $mail->IsHTML(true);
                     $mail->Subject = $subject;
@@ -377,8 +377,8 @@ function sendSellerEmail($order_id)
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
 
-      $mail->Username = 'martinuskleiweg@gmail.com'; // YOUR gmail email
-      $mail->Password = 'radio538'; // YOUR gmail password
+      $mail->Username = 'test@gmail.com'; // YOUR gmail email
+      $mail->Password = 'test'; // YOUR gmail password
 
 
       $servername = "localhost";
@@ -446,9 +446,9 @@ function sendSellerEmail($order_id)
           //echo $email_to;
           $subject = "Your giftcard has been sold - Cardtraders";
 
-          $mail->setFrom('martinuskleiweg@gmail.com', 'Cardtraders');
+          $mail->setFrom('test@gmail.com', 'Cardtraders');
           $mail->addAddress($email_to, 'Cardtrader User');
-          $mail->addReplyTo('martinuskleiweg@gmail.com', 'Cardtraders');
+          $mail->addReplyTo('test@gmail.com', 'Cardtraders');
 
           $mail->IsHTML(true);
           $mail->Subject = $subject;

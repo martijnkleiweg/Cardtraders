@@ -118,9 +118,9 @@ if(count($_POST)>0) {
 
 			if(!empty($current_id2)) {
 
-				$mail->setFrom('martinuskleiweg@gmail.com', 'Cardtraders');
+				$mail->setFrom('test@gmail.com', 'Cardtraders');
 				$mail->addAddress($email, $username);
-				$mail->addReplyTo('martinuskleiweg@gmail.com', 'Cardtraders');
+				$mail->addReplyTo('test@gmail.com', 'Cardtraders');
 
 				// Setting the email content
 		    $mail->IsHTML(true);
