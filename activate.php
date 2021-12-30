@@ -16,6 +16,7 @@ if (! empty($_POST["login-btn"])) {
 $mytable="user";// The name of the database table we will use
 $mytitle ='Cardtraders'; // The title of the page
 $myfooter ='&#169; Cardtraders.io';  // The footer text
+$navigation = "Home / Login";
 $mycss="css/styles.css";// The name of the CSS file to be linked or blank if no external file is needed
 $myjs="jquery/jquery-3.3.1.js";// The name of the JavaScript file to be linked or blank if no external file is needed
 require "head.php";// Provides the page header and links CSS/JavaScript files
@@ -25,7 +26,9 @@ require "navigation.php"; //Provides the navigation bar
 
 require "activation.php";
 
-require_once "login.php";
+require "navbar.php";
+
+require_once "loginindex.php";
 
 require "footer.php"; //Provides the footer
 

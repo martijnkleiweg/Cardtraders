@@ -55,14 +55,25 @@ input[type=text].phppot-input, .phppot-container input,
 }
 
 .phppot-container button, .phppot-container input[type=submit] {
-	padding: 8px 0px;
+	width: 250px;
+padding: 8px 20px;
+margin-top: 20px;
+font-size: 1em;
+cursor: pointer;
+border-radius: 3px;
+color: #565656;
+font-weight: bold;
+background-color: #ffc72c;
+border-color: #ffd98e #ffbe3d #de9300;
+margin-bottom: 20px;
+	/* padding: 8px 0px;
 	font-size: 1em;
 	cursor: pointer;
 	border-radius: 3px;
 	color: #565656;
 	font-weight: bold;
 	background-color: #ffc72c;
-	border-color: #ffd98e #ffbe3d #de9300;
+	border-color: #ffd98e #ffbe3d #de9300; */
 }
 
 .phppot-container button, .phppot-container input[type=submit]:hover {

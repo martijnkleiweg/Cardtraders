@@ -14,6 +14,9 @@ if(!defined('ISITSAFETORUN')) {
          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
          <link href="assets/css/phppot-style.css" type="text/css" rel="stylesheet" />
          <link href="assets/css/user-registration.css" type="text/css" rel="stylesheet" />
+         <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
          <link href="assets/css/styles.css" type="text/css" rel="stylesheet" />
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+
          <script src="vendor/jquery/jquery-3.3.1.js" type="text/javascript"></script>
     </head>

@@ -154,6 +154,7 @@ class Member
                 // the session
                 session_start();
                 $_SESSION["username"] = $memberRecord[0]["username"];
+                $_SESSION["id"] = $memberRecord[0]["id"];
                 session_write_close();
                 $url = "./home.php";
                 header("Location: $url");

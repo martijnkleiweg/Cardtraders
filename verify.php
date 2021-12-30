@@ -56,8 +56,8 @@ if(count($_POST)>0) {
 
 
 	if(!isset($message)) {
-		require_once("dbcontroller.php");
-		$db_handle = new DBController();
+		require_once("dbcontroller2.php");
+		$db_handle = new DBController2();
 		$query = "SELECT * FROM registered_users where email = '" . $_POST["email"] . "'";
 		$count = $db_handle->numRows($query);
 

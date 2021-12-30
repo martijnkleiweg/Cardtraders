@@ -1,8 +1,6 @@
 
-<body>
-  <main>
-    <div class="navbar">Home / Sign Up</div>
 
+  <main>
     <div class="phppot-container">
     		<div class="sign-up-container">
     			<div class="">
@@ -114,7 +112,22 @@
     		$("#username-info").html("required.").css("color", "#ee0000").show();
     		$("#username").addClass("error-field");
     		valid = false;
+
     	}
+      if (UserName.length < 6){
+        $("#username-info").html("At least 6 characters").css("color", "#ee0000").show();
+        $("#username").addClass("error-field");
+        valid = false;
+
+      }
+      if (UserName.length > 15){
+        $("#username-info").html("Max. 15 characters").css("color", "#ee0000").show();
+        $("#username").addClass("error-field");
+        valid = false;
+
+      }
+
+
     	if (email == "") {
     		$("#email-info").html("required").css("color", "#ee0000").show();
     		$("#email").addClass("error-field");
@@ -137,6 +150,7 @@
       if (Password.length < 8){
         $("#signup-password-info").html("At least 8 characters").css("color", "#ee0000").show();
         $("#signup-password").addClass("error-field");
+        valid = false;
 
       }
     	if (ConfirmPassword.trim() == "") {
@@ -160,3 +174,4 @@
     	return valid;
     }
     </script>
+  </main>
