@@ -1,6 +1,6 @@
 # Cardtraders
 
-I delivered a working prototype of the web application where a user can register and log in, buy a sample gift card and receive it by email and sell a sample gift card. 
+As my final project at The Open University, I created a working prototype of a web application where a user can register and log in, buy a sample gift card and receive it by email and sell a sample gift card. 
 
 The limitations of the prototype application are that the available gift cards are not real, selling a gift card will not result in receiving money and only one payment method is available (PayPal).
 
